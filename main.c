@@ -5,9 +5,9 @@ int main(void)
 {
     char str[80];
     fgets(str, 80, stdin);
-    int num[80];
+    char num[80];
     fgets(num, 80, stdin);
     printf("%s", str);
-    
+
     return 0;
 }
