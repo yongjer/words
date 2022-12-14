@@ -10,5 +10,9 @@ int main(void)
     fgets(num, 80, stdin);
     puts(str);
     puts(num);
+    for (int i =0; i < strlen(num); i++)
+    {
+        
+    }
     return 0;
 }
