@@ -9,4 +9,13 @@ int main(void)
     char num[81];
     fgets(num, 80, stdin);
     printf("%s", str);
-    for (int i = 0; i < 80; i++)
+    // separate the string into an array of chars
+    char *token = strtok(str, " ");
+    char *arr[81];
+    int i = 0;
+    while (token != NULL) {
+        arr[i] = token;
+        token = strtok(NULL, " ");
+        i++;
+    }
+    // convert the string to an int
