@@ -8,6 +8,7 @@ int main(void)
     char num[80];
     fgets(num, 80, stdin);
     printf("%s", str);
-
-    return 0;
-}
+    for (int i = 0; i < 80; i++)
+    {
+        
+    }
