@@ -1,7 +1,7 @@
-s = "the only thing necessary for the triumph of evil is for good men to do nothing"
+s = input()
 s = s.split()
 s = list(s)
-num = "1 12 3 10 15 16"
+num = input()
 num = num.split()
 num = list(num)
 for i in range(len(num)):
